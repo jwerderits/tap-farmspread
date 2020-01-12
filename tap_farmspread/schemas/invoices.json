@@ -1,0 +1,232 @@
+{
+  "type": [
+    "null",
+    "object"
+  ],
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "payments": {
+      "type": [
+        "null",
+        "array"
+      ],
+      "items": {
+        "type": [
+          "null",
+          "object"
+        ],
+        "properties": {
+          "id": {
+            "type": [
+              "null",
+              "integer"
+            ]
+          },
+          "currency": {
+            "type": [
+              "null"
+            ]
+          },
+          "created": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "modified": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "status": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "status_reason": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "charge_type": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "amount_currency": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "amount": {
+            "type": [
+              "null",
+              "string"
+            ]
+          },
+          "check_number": {
+            "type": [
+              "null"
+            ]
+          },
+          "paid_email_sent": {
+            "type": [
+              "null",
+              "boolean"
+            ]
+          },
+          "txn": {
+            "type": [
+              "null"
+            ]
+          },
+          "source": {
+            "type": [
+              "null"
+            ]
+          },
+          "credit_item": {
+            "type": [
+              "null"
+            ]
+          },
+          "credit_pair_left": {
+            "type": [
+              "null"
+            ]
+          },
+          "payment_type": {
+            "type": [
+              "null"
+            ]
+          }
+        }
+      }
+    },
+    "created": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "modified": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "invoice_type": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "chargee_name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "statement_title": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "chargee_obj_id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "chargee_memo": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "charged_obj_id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "charged_memo": {
+      "type": [
+        "null"
+      ]
+    },
+    "ref_obj_id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "due_date": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "pre_charge_type": {
+      "type": [
+        "null"
+      ]
+    },
+    "email_sent_on": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "chargee_obj_type": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "chargee_term": {
+      "type": [
+        "null"
+      ]
+    },
+    "charged_obj_type": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "ref_obj_type": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "coupon": {
+      "type": [
+        "null"
+      ]
+    },
+    "pre_payment_type": {
+      "type": [
+        "null"
+      ]
+    }
+  }
+}
