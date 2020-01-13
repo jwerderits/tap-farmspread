@@ -8,7 +8,7 @@ LOGGER = singer.get_logger()
 class InvoicesStream(BaseStream):
     API_METHOD = 'GET'
     TABLE = 'invoices'
-    KEY_PROPERTIES = ['sid']
+    KEY_PROPERTIES = ['id']
 
     @property
     def path(self):

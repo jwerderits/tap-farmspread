@@ -29,8 +29,71 @@
           },
           "currency": {
             "type": [
-              "null"
-            ]
+              "null",
+              "object"
+            ],
+            "properties": {
+              "id": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              },
+              "created": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "modified": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "name": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "alias": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "slug": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "description": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "url": {
+                "type": [
+                  "null",
+                  "string"
+                ]
+              },
+              "locked": {
+                "type": [
+                  "null",
+                  "boolean"
+                ]
+              },
+              "market": {
+                "type": [
+                  "null",
+                  "integer"
+                ]
+              }
+            }
           },
           "created": {
             "type": [
